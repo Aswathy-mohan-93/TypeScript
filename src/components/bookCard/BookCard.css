@@ -1,0 +1,98 @@
+
+  .book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 22vw; 
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-image {
+    width: 100%;  
+    height: auto;  
+    object-fit: contain; 
+    max-height: 30vh;  
+    margin-bottom: 12px; 
+  }
+  
+  .book-title {
+    font-size: 18px;
+    color: #333;
+    margin: 12px 0 8px;
+    font-weight: bold;
+  }
+  
+  .book-author {
+    font-size: 16px;
+    color: #777;
+    margin: 0 0 16px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #e68a00;
+  }
+
+  .book-card-link {
+    text-decoration: none;  
+    color: inherit;
+  }
+
+  @media (max-width: 768px) {
+    .book-card {
+      width: 35vw;  
+      padding: 12px;  
+    }
+  
+    .book-title {
+      font-size: 16px;  
+    }
+  
+    .book-author {
+      font-size: 14px;  
+    }
+  
+   
+  }
+  
+  /* For very small devices  */
+  @media (max-width: 480px) {
+    .book-card {
+      width: 90vw;  
+      padding: 10px;  
+    }
+  
+    .book-image {
+      width: 80vw;  
+      height: 40vh;  
+    }
+  
+    .book-title {
+      font-size: 14px;  
+    }
+  
+    .book-author {
+      font-size: 12px;  
+    }
+  
+   
+  }
+  

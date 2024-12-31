@@ -1,0 +1,215 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 8,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "1",
+        "etag": "etag_example_1",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/1",
+        "volumeInfo": {
+          "title": "The White Tiger",
+          "authors": ["Aravind Adiga"],
+          "publisher": "Free Press",
+          "publishedDate": "2008-05-06",
+          "description": "A gripping and dark tale of a poor Indian driver who rises to power, exposing the corrupt social systems of modern India.",
+          "categories": ["Fiction", "Thriller"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=1&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 399,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "2",
+        "etag": "etag_example_2",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/2",
+        "volumeInfo": {
+          "title": "The God of Small Things",
+          "authors": ["Arundhati Roy"],
+          "publisher": "Random House",
+          "publishedDate": "1997-06-05",
+          "description": "The story of twins growing up in Kerala, India, exploring family trauma, forbidden love, and the oppressive societal norms.",
+          "categories": ["Fiction", "Literary", "Family Saga"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=2&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 499,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "3",
+        "etag": "etag_example_3",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/3",
+        "volumeInfo": {
+          "title": "Chetan Bhagat's Revolution 2020",
+          "authors": ["Chetan Bhagat"],
+          "publisher": "Rupa Publications",
+          "publishedDate": "2011-10-10",
+          "description": "The story of three friends in Varanasi navigating love, ambition, and corruption in modern-day India.",
+          "categories": ["Fiction", "Contemporary", "Romance"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=3&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 250,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "4",
+        "etag": "etag_example_4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/4",
+        "volumeInfo": {
+          "title": "Midnight's Children",
+          "authors": ["Salman Rushdie"],
+          "publisher": "Penguin Books",
+          "publishedDate": "1981-04-12",
+          "description": "A magical realist novel exploring India’s history, using the life of a boy born on the exact moment of the country’s independence.",
+          "categories": ["Fiction", "Historical", "Magical Realism"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=4&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 799,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "5",
+        "etag": "etag_example_5",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/5",
+        "volumeInfo": {
+          "title": "Shantaram",
+          "authors": ["Gregory David Roberts"],
+          "publisher": "St. Martin's Press",
+          "publishedDate": "2003-07-01",
+          "description": "An epic tale of an Australian fugitive who escapes to India, where he becomes involved in the underworld of Mumbai.",
+          "categories": ["Fiction", "Adventure", "Thriller"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=5&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 599,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "6",
+        "etag": "etag_example_6",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/6",
+        "volumeInfo": {
+          "title": "Train to Pakistan",
+          "authors": ["Khushwant Singh"],
+          "publisher": "Ravi Dayal Publisher",
+          "publishedDate": "1956-01-01",
+          "description": "A powerful portrayal of the partition of India and the impact of violence and displacement on its people.",
+          "categories": ["Fiction", "Historical", "Drama"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=6&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 299,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "7",
+        "etag": "etag_example_7",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/7",
+        "volumeInfo": {
+          "title": "The Inheritance of Loss",
+          "authors": ["Kiran Desai"],
+          "publisher": "Penguin Books",
+          "publishedDate": "2006-06-01",
+          "description": "A novel set in the Himalayas that explores the clash between tradition and modernity through the lives of its characters.",
+          "categories": ["Fiction", "Literary", "Contemporary"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=7&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 449,
+            "currencyCode": "INR"
+          }
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "8",
+        "etag": "etag_example_8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/8",
+        "volumeInfo": {
+          "title": "The Palace of Illusions",
+          "authors": ["Chitra Banerjee Divakaruni"],
+          "publisher": "Doubleday",
+          "publishedDate": "2008-09-02",
+          "description": "A retelling of the ancient Indian epic Mahabharata from the perspective of a woman, Panchaali.",
+          "categories": ["Fiction", "Historical", "Mythology"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=8&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+          },
+          "language": "en"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "retailPrice": {
+            "amount": 399,
+            "currencyCode": "INR"
+          }
+        }
+      }
+    ]
+}
+  

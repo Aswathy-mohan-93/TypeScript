@@ -1,0 +1,64 @@
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e55a47;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  button.buy-now-btn {
+    background-color: #2596be;  
+  }
+  
+  button.buy-now-btn:hover {
+    background-color: #1d7a99;  
+    transform: scale(1.1);       
+  }
+  
+  /* In-out Focus */
+  button.buy-now-btn:focus {
+    outline: none;              
+    box-shadow: 0 0 5px rgba(38, 50, 56, 0.5);  
+  }
+
+  button.increment-btn, button.decrement-btn {
+    padding: 5px 12px;
+    font-size: 26px;
+  }
+
+
+  @media (max-width: 768px) {
+   
+    button.add-to-cart-btn {
+      font-size: 14px; 
+      padding: 8px 16px;  
+    }
+   
+    button.increment-btn, button.decrement-btn {
+      font-size: 20px; 
+      padding: 4px 8px;  
+    }
+  }
+  @media (max-width: 480px) {
+  
+    button.add-to-cart-btn {
+      font-size: 12px;  
+      padding: 6px 12px;  
+    }
+
+    button.increment-btn, button.decrement-btn {
+      font-size: 18px; 
+      padding: 3px 6px;  
+    }
+  }

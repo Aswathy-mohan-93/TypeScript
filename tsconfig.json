@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "react", "react-dom"],
+    "resolveJsonModule": true
+  },
+"include": ["src", "images.d.ts"]
+}
